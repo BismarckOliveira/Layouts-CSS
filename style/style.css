@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body, input , button, span {
+  font: 16px Roboto, sans-serif;
+}
+
+.Container {
+  display: flex;
+  height: 100vh;
+  display: flex;
+  align-items: stretch;
+  background-color: #EEE9E9;
+}
+
+.Menu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  width: 800px;
+  
+  background-color:#000080;  
+}
+
+.Menu ul {
+  margin: 20px 0;
+  list-style:none;
+  
+}
+
+.Menu ul li {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+  color: #EEE9E9;
+}
+
+
+header{
+  display: flex;
+  align-items: center;
+  background-color: #FFFFFF;
+  width: 90vw;
+  padding: 1.5vh;
+  justify-content: space-between;
+  
+}
+
+header input {
+   
+  height: 50px;
+  flex: 1;
+  border: 0;
+  font-size: 25px;
+}
+
+.profile{
+  display: flex;
+  align-items: center;
+  margin-right: 5vw;
+}
+
+.profile svg{
+  margin-right: 16px;
+  width: 40px;
+  height: 40px;
+  background-color: pink;
+  color: #FFFFFF;
+  border-radius: 100px;
+
+}
+
+.section{
+  width: 100%;
+  height: 100%;
+  max-width: 90vw;
+  max-height: 549px;
+}
+
+.section h1{
+  padding: 16px;
+}
+
+footer{
+  color: #FFFFFF;
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
+  background-color: #000080;
+  width: 90vw;
+  padding: 1.5vh;
+  
+}
+
+footer span {
+  padding-left: 35px;
+}
